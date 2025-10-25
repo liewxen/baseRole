@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -77,9 +77,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SafeMathContract.sol": "IBasicContractTest"
+			"Role1/SafeMathContract.sol": "IBasicContractTest"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -91,12 +91,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SafeMathContract.sol": {
-			"keccak256": "0x592268487a91be68db2418c462ef6b8972882086b48ceb0d6be6a74dbe32126b",
+		"Role1/SafeMathContract.sol": {
+			"keccak256": "0x9f679d252fb3d4d9a39d555ff00277f8b15c69404c884a1fc084822716f7841e",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://2c2e688424d30aff3aeb353d1d5db88869b3b3790960058043bd853e4849c868",
-				"dweb:/ipfs/Qmeo3H5H12ErZcx5S1cPoES1pVL4NRJ6zgMehCEjSfqk1K"
+				"bzz-raw://4fe3e2f9266b55214aa23f496ef28310c8226946fbcadb935b3321d648f7d7c0",
+				"dweb:/ipfs/QmWsRHGvegMY3aFakSN5fJtZn8EiTwWvK8QpmPaRY85QFc"
 			]
 		}
 	},

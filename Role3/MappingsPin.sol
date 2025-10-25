@@ -49,3 +49,5 @@ contract Submission is ISubmission {
         delete userFavorites[msg.sender];
     }
 }
+
+// https://sepolia.basescan.org/token/0xd32e3ace3272e2037003ca54ca7e5676f9b8d06c#writeContract

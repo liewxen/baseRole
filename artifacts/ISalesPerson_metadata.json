@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -58,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Inherite.sol": "ISalesPerson"
+			"Role3/InheritanceNFT.sol": "ISalesPerson"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -72,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Inherite.sol": {
-			"keccak256": "0xb7a9e1b955eb7fc5891329cde765d26c825e304c5d1a9097c114bff5aa9f5daa",
+		"Role3/InheritanceNFT.sol": {
+			"keccak256": "0xf649e278ffd786189def3c07aa7cc50cd0f4e8f4d886717e26fd6016e5cd146f",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://a0b7c7123d5205ab68b73482608fb1580d0ae390e986155bd357e91a1f16d110",
-				"dweb:/ipfs/QmbhoGJR5YLCVepmLYAw3XmVryk2NFd4YmxSYFXFzWUKPL"
+				"bzz-raw://3de77dc3534249aa8ef82f46270d94ce01cf122b62dab29cfab07e9c6f620758",
+				"dweb:/ipfs/QmenjyBEb73KZ91iPEL43HwHJXrgXmVjAvebr7jDQ5VMBv"
 			]
 		}
 	},

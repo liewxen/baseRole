@@ -130,11 +130,11 @@
 	},
 	"sources": {
 		"Role2/StoragePin.sol": {
-			"keccak256": "0x144c60ef44111c9fba34f190b0a024ca69b20596785870630749d3050ac0a7f6",
+			"keccak256": "0xbf37a8c69bf235e6c97363d60eaf7a5ec8d4cecaec52ecccd1b966620e4a2193",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://4884730dfc8ed705f02937cb5b70814367b4174fa2dabde5252bd60e09af9700",
-				"dweb:/ipfs/QmNqWgr1yBRXqKR6xvStxLZ3FcPxVMAsaVZbi1Md4qkrX9"
+				"bzz-raw://5140daf4744bf35f4f421f943de28094c57210bbe359e6e3310bc4c5d0663369",
+				"dweb:/ipfs/QmWKqS595ujhqoXN7GrX3pWVHYDHq3hiwj8xRYZnfrTRZ6"
 			]
 		}
 	},

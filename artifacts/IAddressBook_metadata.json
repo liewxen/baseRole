@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.23+commit.f704f362"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -131,9 +131,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"newkey.sol": "IAddressBook"
+			"Role4/NewKeywordPin.sol": "IAddressBook"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -161,12 +161,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"newkey.sol": {
-			"keccak256": "0x90c2f99831c51ad6a3087bbc91137ab0b76247437f58f44f5b7f0780283e8270",
+		"Role4/NewKeywordPin.sol": {
+			"keccak256": "0x7cf9331e3ac61ab4f2d827f0c40d4f5a4edafa636876ceb34806a387750ef9ed",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://ea151172d9676b1c24d8c5492e05dac3b358333759736bb4cfb110799aa4f2c3",
-				"dweb:/ipfs/QmYDHU4KFfxPFUxKmx8YusvGMWAguepqhiNaHN5Hf3HweV"
+				"bzz-raw://1897d862e1a95f5cceac4d13278a98208da56d3bf155bd851e4e8c4bf5b5a3e8",
+				"dweb:/ipfs/QmeY9NAE5aQcn62qWg5qy2Dgm3gT3NiwakHnD7kduXvAou"
 			]
 		}
 	},

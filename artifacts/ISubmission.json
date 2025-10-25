@@ -49,93 +49,117 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"getHaiku()": "25eb69a9",
-			"saveHaiku(string,string,string)": "583dc769",
-			"shruggieHaiku()": "8346cbef"
+			"addToArr(uint256)": "e1819ff9",
+			"applyModifier(uint256,int256)": "f74e51ea",
+			"diffWithNeighbor(uint256,uint256,uint256,uint256)": "29432314",
+			"getArr()": "fb8cbced",
+			"popWithReturn()": "1abe2ac2",
+			"resetArr()": "64529db5"
 		}
 	},
 	"abi": [
 		{
-			"inputs": [],
-			"name": "getHaiku",
-			"outputs": [
-				{
-					"components": [
-						{
-							"internalType": "string",
-							"name": "line1",
-							"type": "string"
-						},
-						{
-							"internalType": "string",
-							"name": "line2",
-							"type": "string"
-						},
-						{
-							"internalType": "string",
-							"name": "line3",
-							"type": "string"
-						}
-					],
-					"internalType": "struct ISubmission.Haiku",
-					"name": "",
-					"type": "tuple"
-				}
-			],
-			"stateMutability": "view",
-			"type": "function"
-		},
-		{
 			"inputs": [
 				{
-					"internalType": "string",
-					"name": "_line1",
-					"type": "string"
-				},
-				{
-					"internalType": "string",
-					"name": "_line2",
-					"type": "string"
-				},
-				{
-					"internalType": "string",
-					"name": "_line3",
-					"type": "string"
+					"internalType": "uint256",
+					"name": "_num",
+					"type": "uint256"
 				}
 			],
-			"name": "saveHaiku",
+			"name": "addToArr",
 			"outputs": [],
 			"stateMutability": "nonpayable",
 			"type": "function"
 		},
 		{
-			"inputs": [],
-			"name": "shruggieHaiku",
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_base",
+					"type": "uint256"
+				},
+				{
+					"internalType": "int256",
+					"name": "_modifier",
+					"type": "int256"
+				}
+			],
+			"name": "applyModifier",
 			"outputs": [
 				{
-					"components": [
-						{
-							"internalType": "string",
-							"name": "line1",
-							"type": "string"
-						},
-						{
-							"internalType": "string",
-							"name": "line2",
-							"type": "string"
-						},
-						{
-							"internalType": "string",
-							"name": "line3",
-							"type": "string"
-						}
-					],
-					"internalType": "struct ISubmission.Haiku",
+					"internalType": "uint256",
 					"name": "",
-					"type": "tuple"
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint256",
+					"name": "_a",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_b",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_c",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_d",
+					"type": "uint256"
+				}
+			],
+			"name": "diffWithNeighbor",
+			"outputs": [
+				{
+					"internalType": "uint256[]",
+					"name": "",
+					"type": "uint256[]"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "getArr",
+			"outputs": [
+				{
+					"internalType": "uint256[]",
+					"name": "",
+					"type": "uint256[]"
 				}
 			],
 			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "popWithReturn",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "resetArr",
+			"outputs": [],
+			"stateMutability": "nonpayable",
 			"type": "function"
 		}
 	]

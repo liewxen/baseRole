@@ -59,3 +59,6 @@ contract Submission is ERC721 {
         return result;
     }
 }
+
+
+// https://sepolia.basescan.org/token/0x15534ed3d1dba55148695b2ba4164f147e47a10c#writeContract

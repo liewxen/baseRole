@@ -6,86 +6,107 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getHaiku",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "line1",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "line2",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "line3",
-								"type": "string"
-							}
-						],
-						"internalType": "struct ISubmission.Haiku",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_line1",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_line2",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_line3",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
 					}
 				],
-				"name": "saveHaiku",
+				"name": "addToArr",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "shruggieHaiku",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_base",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "_modifier",
+						"type": "int256"
+					}
+				],
+				"name": "applyModifier",
 				"outputs": [
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "line1",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "line2",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "line3",
-								"type": "string"
-							}
-						],
-						"internalType": "struct ISubmission.Haiku",
+						"internalType": "uint256",
 						"name": "",
-						"type": "tuple"
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_c",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_d",
+						"type": "uint256"
+					}
+				],
+				"name": "diffWithNeighbor",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "popWithReturn",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "resetArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -102,7 +123,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Role4/ImportsPin.sol": "ISubmission"
+			"Role4/ErrorTriagePin.sol": "ISubmission"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -116,12 +137,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Role4/ImportsPin.sol": {
-			"keccak256": "0x21e5e76095e33e5426a4512eb238fbde9bad3d5ccd125246b2364b28452b78ed",
+		"Role4/ErrorTriagePin.sol": {
+			"keccak256": "0x025c4c4b4b6ade496e368b568d5bb5386629a14cda36f98bba21952ac784134d",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://67b44926b3d0918073ec9ec587d0c679a520651fbe3e34d4f7eb0ed883951b7c",
-				"dweb:/ipfs/QmQoXfHfGK1Sc1vbxQo9fNvf6anb5gDxmD2QeXsUWkALG6"
+				"bzz-raw://b8e78f8a36e2929dfed7ccf92f0fdf79bba58beeff87f7dfb0bc5c4b7c699c4b",
+				"dweb:/ipfs/QmPN12E84QWAapbqGvXqeDNTVsqECqKAbZaTx4KCnYPBnw"
 			]
 		}
 	},

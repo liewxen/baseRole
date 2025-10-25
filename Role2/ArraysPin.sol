@@ -63,3 +63,5 @@ contract Submission {
         return (filteredTimestamps, filteredAddresses);
     }
 }
+
+// https://sepolia.basescan.org/token/0x5b0f80ca6f5bd60cc3b64f0377f336b2b2a56cdf#writeContract
