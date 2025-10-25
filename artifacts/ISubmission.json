@@ -1,0 +1,142 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"getHaiku()": "25eb69a9",
+			"saveHaiku(string,string,string)": "583dc769",
+			"shruggieHaiku()": "8346cbef"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"name": "getHaiku",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "line1",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "line2",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "line3",
+							"type": "string"
+						}
+					],
+					"internalType": "struct ISubmission.Haiku",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "string",
+					"name": "_line1",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_line2",
+					"type": "string"
+				},
+				{
+					"internalType": "string",
+					"name": "_line3",
+					"type": "string"
+				}
+			],
+			"name": "saveHaiku",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "shruggieHaiku",
+			"outputs": [
+				{
+					"components": [
+						{
+							"internalType": "string",
+							"name": "line1",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "line2",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "line3",
+							"type": "string"
+						}
+					],
+					"internalType": "struct ISubmission.Haiku",
+					"name": "",
+					"type": "tuple"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}

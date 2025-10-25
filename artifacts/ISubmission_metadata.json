@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getHaiku",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "line1",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line2",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line3",
+								"type": "string"
+							}
+						],
+						"internalType": "struct ISubmission.Haiku",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_line1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_line2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_line3",
+						"type": "string"
+					}
+				],
+				"name": "saveHaiku",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shruggieHaiku",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "line1",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line2",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "line3",
+								"type": "string"
+							}
+						],
+						"internalType": "struct ISubmission.Haiku",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Role4/ImportsPin.sol": "ISubmission"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Role4/ImportsPin.sol": {
+			"keccak256": "0x21e5e76095e33e5426a4512eb238fbde9bad3d5ccd125246b2364b28452b78ed",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://67b44926b3d0918073ec9ec587d0c679a520651fbe3e34d4f7eb0ed883951b7c",
+				"dweb:/ipfs/QmQoXfHfGK1Sc1vbxQo9fNvf6anb5gDxmD2QeXsUWkALG6"
+			]
+		}
+	},
+	"version": 1
+}
